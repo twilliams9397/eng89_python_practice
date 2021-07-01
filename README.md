@@ -80,12 +80,40 @@ def odd_check(num):
 
 odd_check(num)
 ```
-### 12 select the correct syntax- 1 -super.__init(). 2- super()__init(). 3 super().__init(). 4 - Super().__init __()
+### 12. select the correct syntax- 1 -super.__init(). 2- super()__init(). 3 super().__init(). 4 - Super().__init __()
 - 4 `super().__init__()`
-### 13 Declare a tuple with three vals of choice. Iterate through tuple and display values.
+### 13. Declare a tuple with three vals of choice. Iterate through tuple and display values.
 ```python
 list = (1, 2, 'three')
 
 for i in list:
     print(i)
+```
+### 14. Create a class called Student, with one method called student_data which returns student name. Create a class called DevOpsStudent to inherit student class and print student name
+```python
+class Student():
+    def __init__(self):
+        self.name = "Tom"
+
+    def student_data(self):
+        return self.name
+
+class DevOpsStudent(Student):
+    def __init__(self):
+        super().__init__()
+
+smart_student = DevOpsStudent()
+print(smart_student.student_data())
+```
+### 15. Declare a variable called city, declare a method that takes 'city' as an arg and value of city is "London". The method returns True for London and False for anything else
+```python
+city = "London"
+
+def city_check(city):
+    if city == "London":
+        return True
+    else:
+        return False
+
+print(city_check(city))
 ```
