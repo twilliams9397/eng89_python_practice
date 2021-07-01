@@ -20,4 +20,19 @@ for i in num_list:
 A list [ ] is mutable and a tuple ( ) is immutable
 ### 5. Can we add an element to a list? Can we add an element to a tuple? Can the elements in tuples be different types?
 Yes to a list (mutable), no to a tuple (immutable), yes to different types
-### 6. 
+### 6. Create a dict with key:value pairs of first_name and last_name
+```python
+dict = {
+    'first_name': 'Tom',
+    'last_name': 'Williams'
+}
+```
+### 7. Add course to the below dictionary.
+```python
+dict = {
+    'first_name': 'Tom',
+    'last_name': 'Williams'
+}
+
+dict['Course'] = 'DevOps'
+```
