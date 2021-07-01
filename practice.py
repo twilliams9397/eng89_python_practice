@@ -1,4 +1,4 @@
-# declare a function called Username, that takes one arg as str, and return the name
+# Q1
 
 # def username(name):
 #     return name
@@ -7,8 +7,12 @@
 #
 # print(username(name_input))
 
-# declare a list with numbers 1 to 5. iterate through the list and display the list
+# Q2
 
-num_list = [1, 2, 3, 4, 5]
-for i in num_list:
-    print(i)
+# num_list = [1, 2, 3, 4, 5]
+# for i in num_list:
+#     print(i)
+
+# Q3 in README
+# Q4 in README
+# Q5 in README
