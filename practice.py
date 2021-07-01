@@ -111,3 +111,16 @@
 #         return False
 #
 # print(city_check(city))
+
+# Q16 import sys, import math. Print random method. Create function that takes two args and gives %
+
+import random
+import sys
+import math
+
+print(random.randint(0, 10))
+
+def percent(a, b):
+    return a / b * 100
+
+print(percent(5, 10))
