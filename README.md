@@ -36,3 +36,19 @@ dict = {
 
 dict['Course'] = 'DevOps'
 ```
+### 8. Create a class called student, initialise the class and create an object of the class
+```python
+class Student():
+    def __init__(self):
+        pass
+
+student = Student()
+```
+### 9. Create 2 functions that take 2 args each. Function one called add_values, function 2 called subtract_values. Return operations + and -
+```python
+def add_values(a, b):
+    return a + b
+
+def subtract_values(a, b):
+    return a - b
+```
