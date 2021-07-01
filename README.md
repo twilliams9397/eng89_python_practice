@@ -8,6 +8,7 @@ def username(name):
 name_input = input("What is your name?  ")
 print(username(name_input))
 ```
+- Doesn't **need** the user prompt, just hard code a name in the print line.
 ### 2. Declare a list with numbers 1 to 5. iterate through the list and display the list
 ```python
 num_list = [1, 2, 3, 4, 5]
@@ -51,4 +52,40 @@ def add_values(a, b):
 
 def subtract_values(a, b):
     return a - b
+```
+### 10. Declare a dictionary with three shopping items, with cost - eggs: £1.20, milk: £2.30 and bread: £1.00. Write a function that returns the total value
+```python
+shopping_list = {
+    'eggs': 1.2,
+    'milk': 2.3,
+    'bread': 1.0
+}
+
+def total_value(dict):
+    list = dict.values()
+    total = sum(list)
+    return f"The total value is £{total:.2f}."
+
+print(total_value(shopping_list))
+```
+### 11. Prompt the user to enter an integer, declare a function that checks if the number is odd or even. Display back to the user with the message "the number you chose is odd/even"
+```python
+num = int(input("Please input an integer.  "))
+
+def odd_check(num):
+    if num % 2 == 0:
+        print(f"Your number {num} is even.")
+    else:
+        print(f"Your number {num} is odd.")
+
+odd_check(num)
+```
+### 12 select the correct syntax- 1 -super.__init(). 2- super()__init(). 3 super().__init(). 4 - Super().__init __()
+- 4 `super().__init__()`
+### 13 Declare a tuple with three vals of choice. Iterate through tuple and display values.
+```python
+list = (1, 2, 'three')
+
+for i in list:
+    print(i)
 ```

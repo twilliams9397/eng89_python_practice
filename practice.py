@@ -47,3 +47,39 @@
 #
 # def subtract_values(a, b):
 #     return a - b
+
+# Q10 Declare a dictionary with three shopping items, with cost - eggs: £1.20, milk: £2.30 and bread: £1.00. Write a function that returns the total value
+
+# shopping_list = {
+#     'eggs': 1.2,
+#     'milk': 2.3,
+#     'bread': 1.0
+# }
+#
+# def total_value(dict):
+#     list = dict.values()
+#     total = sum(list)
+#     return f"The total value is £{total:.2f}."
+#
+# print(total_value(shopping_list))
+
+# Q11 Prompt the user to enter an integer, declare a function that checks if the number is odd or even. Display back to the user with the message "the number you chose is odd/even"
+
+# num = int(input("Please input an integer.  "))
+#
+# def odd_check(num):
+#     if num % 2 == 0:
+#         print(f"Your number {num} is even.")
+#     else:
+#         print(f"Your number {num} is odd.")
+#
+# odd_check(num)
+
+# Q12 in README
+
+# Q13 Declare a tuple with three vals of choice. Iterate through tuple and display values.
+
+list = (1, 2, 'three')
+
+for i in list:
+    print(i)
